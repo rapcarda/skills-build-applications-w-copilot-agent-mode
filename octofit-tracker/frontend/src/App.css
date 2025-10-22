@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+
+  body {
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    color: #222;
+    font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  }
+
+  .App {
+    min-height: 100vh;
+    text-align: center;
+  }
+
+
+  /* Navigation Bar */
+  .navbar {
+    background: linear-gradient(90deg, #2b5876 0%, #4e4376 100%);
+    box-shadow: 0 2px 8px rgba(46, 49, 49, 0.08);
+  }
+  .navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+  }
+  .navbar-nav .nav-link {
+    color: #e0eafc !important;
+    margin-right: 1rem;
+    transition: color 0.2s;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #ffb347 !important;
+  }
+
+  /* Logo Styling */
+  .octofit-logo {
+    height: 48px;
+    margin-right: 16px;
+    vertical-align: middle;
+  }
+
+  /* Headings */
+  h1, h2, h3, h4, h5 {
+    color: #4e4376;
+    font-weight: 700;
+  }
+
+  /* Card Styling */
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    border: none;
+  }
+  .card-body {
+    padding: 2rem;
+  }
+
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #f7fafc;
+    color: #222;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  th {
+    background: #4e4376;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.75rem;
+  }
+  td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #e0eafc;
+  }
+  tr:nth-child(even) {
+    background: #e0eafc;
+  }
+
+  /* Buttons */
+  .btn, button {
+    background: linear-gradient(90deg, #ffb347 0%, #ffcc33 100%);
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(46, 49, 49, 0.08);
+    transition: background 0.2s, color 0.2s;
+  }
+  .btn:hover, button:hover {
+    background: linear-gradient(90deg, #ffcc33 0%, #ffb347 100%);
+    color: #4e4376;
+  }
+
+  /* Links */
+  a {
+    color: #2b5876;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  a:hover {
+    color: #ffb347;
+    text-decoration: underline;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .card-body {
+      padding: 1rem;
+    }
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+  }
+}
